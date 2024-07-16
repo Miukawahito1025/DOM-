@@ -18,8 +18,10 @@ setTimeout(function () {
 
 // idで指定したparentを取得
 const parent = document.getElementById("parent");
+console.log(parent);
 // idで指定したchildを取得
 const child = document.getElementById("child");
+console.log(child);
 setTimeout(function () {
   // 3秒後に#child要素が削除される
   parent.removeChild(child);
